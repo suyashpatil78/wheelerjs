@@ -1,6 +1,6 @@
 {
   "name": "wheelerjs",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "./dist/cjs/index.js",
   "module": "./dist/esm/index.js",
@@ -11,9 +11,15 @@
     "build:cjs": "tsc --module commonjs --outDir dist/cjs",
     "copy:css": "cp src/components/loader.css dist/cjs/components/loader.css && cp src/components/loader.css dist/esm/components/loader.css" 
   },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/suyashpatil78/wheelerjs.git"
+  },
+  "homepage": "wheelerjs.suyashpatil.me",
   "keywords": [
     "react",
-    "animation"
+    "animation",
+    "loader"
   ],
   "author": "suyashpatil78",
   "license": "MIT",
@@ -28,6 +34,7 @@
   },
   "files": [
     "dist",
+    "src",
     "LICENSE",
     "README.md"
   ]

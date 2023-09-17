@@ -2,9 +2,14 @@
   "name": "wheelerjs",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "./dist/cjs/index.js",
+  "module": "./dist/esm/index.js",
+  "types": "./dist/esm/index.d.ts",
   "scripts": {
-    "build": "tsc"
+    "build": "npm run build:esm && npm run build:cjs && npm run copy:css",
+    "build:esm": "tsc",
+    "build:cjs": "tsc --module commonjs --outDir dist/cjs",
+    "copy:css": "cp src/components/loader.css dist/cjs/components/loader.css && cp src/components/loader.css dist/esm/components/loader.css" 
   },
   "keywords": [
     "react",

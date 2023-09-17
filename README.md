@@ -20,4 +20,10 @@ function App() {
 
 export default App;
 ```
+## How it looks like
+
+<p align="center">
+  <img src="https://github.com/suyashpatil78/wheelerjs/blob/main/assets/demo.gif" />
+</p>
+
 * If you face any issue, use github issues for that

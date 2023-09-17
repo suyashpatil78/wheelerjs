@@ -1,4 +1,6 @@
 # wheelerjs
+[![install size](https://packagephobia.com/badge?p=wheelerjs@1.0.2)](https://packagephobia.com/result?p=wheelerjs@1.0.2)
+[![downloads](https://img.shields.io/npm/dt/wheelerjs.svg)](https://www.npmjs.com/package/wheelerjs)
 
 ### The only library you needed to show up a loader
 

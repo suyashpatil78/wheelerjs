@@ -1,0 +1,21 @@
+{
+  "name": "wheelerjs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "keywords": [
+    "react",
+    "animation"
+  ],
+  "author": "suyashpatil78",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/react": "^18.2.21",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "typescript": "^5.2.2"
+  }
+}
